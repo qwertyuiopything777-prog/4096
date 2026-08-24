@@ -389,18 +389,51 @@ hr {
   .tile.tile-4096 .tile-inner {
     color: #f9f6f2;
     background: #edb22e;
-    box-shadow: 0 0 30px 10.2px rgba(243, 215, 116, 0.7), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    box-shadow: 0 0 30px 10.2px #EDB22EB2, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-4096 .tile-inner {
         font-size: 15px; } }
-  .tile.tile-super .tile-inner {
+  .tile.tile-8192 .tile-inner {
     color: #f9f6f2;
-    background: #3c3a32;
+    background: #eda22e;
+    box-shadow: 0 0 30px 10.2px #eda22ed3, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 35px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-8192 .tile-inner {
+        font-size: 15px; } }
+  .tile.tile-16384 .tile-inner {
+    color: #f9f6f2;
+    background: #ed922e;
+    box-shadow: 0 0 30px 10.2px #ed922e, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 30px; }
     @media screen and (max-width: 520px) {
-      .tile.tile-super .tile-inner {
-        font-size: 10px; } }
+      .tile.tile-16384 .tile-inner {
+        font-size: 15px; } }
+  .tile.tile-32768 .tile-inner {
+    color: #f9f6f2;
+    background: #ed822e;
+    box-shadow: 0 0 30px 10.2px #ed822e, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 30px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-32768 .tile-inner {
+        font-size: 15px; } }
+  .tile.tile-65536 .tile-inner {
+    color: #f9f6f2;
+    background: #ed722e;
+    box-shadow: 0 0 30px 10.2px #ed722e, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 30px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-65536 .tile-inner {
+        font-size: 15px; } }
+  .tile.tile-131072 .tile-inner {
+    color: #f9f6f2;
+    background: #ed622e;
+    box-shadow: 0 0 30px 10.2px #ed622e, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 28px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-131072 .tile-inner {
+        font-size: 15px; } }
 
 @-webkit-keyframes appear {
   0% {
